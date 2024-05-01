@@ -17,7 +17,7 @@ namespace EFSupplier
         }
 
         // Arama butonuna basıldığında çalışacak metot.
-        private void btnSearch_Click(object sender, EventArgs e)
+        private void BtnSearch_Click(object sender, EventArgs e)
         {
             int supplierId;
             //TextBox'tan alınan metni tedarikçi ID'si olarak okumakla birlikte, int.TryParse kullanarak bunu bir tamsayıya dönüştürmeye çalıştık.
@@ -43,10 +43,10 @@ namespace EFSupplier
             else
             {
                 lblSupplier.Text = "Invalid supplier Id.";
-            }
+            } 
         }
         // Delete butonuna basılınca çalışacak metot
-        private void btnDelete_Click(object sender, EventArgs e)
+        private void BtnDelete_Click(object sender, EventArgs e)
         {
             int supplierId;
             // btnSearch_Click metoduyla aynı mantıkla Id değerini okumaya çalıştık

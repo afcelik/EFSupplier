@@ -30,8 +30,8 @@
         {
             lblSupplier = new Label();
             textBox1 = new TextBox();
-            btnSearch = new Button();
-            btnDelete = new Button();
+            BtnSearch = new Button();
+            BtnDelete = new Button();
             SuspendLayout();
             // 
             // lblSupplier
@@ -52,29 +52,29 @@
             // 
             // btnSearch
             // 
-            btnSearch.Location = new Point(324, 41);
-            btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(75, 23);
-            btnSearch.TabIndex = 2;
-            btnSearch.Text = "Search";
-            btnSearch.UseVisualStyleBackColor = true;
+            BtnSearch.Location = new Point(324, 41);
+            BtnSearch.Name = "btnSearch";
+            BtnSearch.Size = new Size(75, 23);
+            BtnSearch.TabIndex = 2;
+            BtnSearch.Text = "Search";
+            BtnSearch.UseVisualStyleBackColor = true;
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(424, 41);
-            btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(75, 23);
-            btnDelete.TabIndex = 3;
-            btnDelete.Text = "Delete";
-            btnDelete.UseVisualStyleBackColor = true;
+            BtnDelete.Location = new Point(424, 41);
+            BtnDelete.Name = "btnDelete";
+            BtnDelete.Size = new Size(75, 23);
+            BtnDelete.TabIndex = 3;
+            BtnDelete.Text = "Delete";
+            BtnDelete.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(btnDelete);
-            Controls.Add(btnSearch);
+            Controls.Add(BtnDelete);
+            Controls.Add(BtnSearch);
             Controls.Add(textBox1);
             Controls.Add(lblSupplier);
             Name = "Form2";
@@ -87,7 +87,7 @@
 
         private Label lblSupplier;
         private TextBox textBox1;
-        private Button btnSearch;
-        private Button btnDelete;
+        private Button BtnSearch;
+        private Button BtnDelete;
     }
 }

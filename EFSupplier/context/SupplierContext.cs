@@ -14,6 +14,6 @@ namespace EFSupplier.context
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-OVRMDFF; Database=SuppliersDb; Trusted_Connection=True");
         }
-        public DbSet<Supplier> Suppliers { get; set; }
+        public DbSet<Supplier>? Suppliers { get; set; }
     }
 }
